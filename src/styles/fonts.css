@@ -2,3 +2,8 @@
     font-family: 'Bebas Neue Regular';
     src: url('fonts/Bebas Neue Regular.ttf');
 }
+
+@font-face {
+    font-family: 'Bebas Neue Book';
+    src: url('fonts/Bebas Neue Book.ttf');
+}
