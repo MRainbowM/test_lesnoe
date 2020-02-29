@@ -7,3 +7,13 @@
     font-family: 'Bebas Neue Book';
     src: url('fonts/Bebas Neue Book.ttf');
 }
+
+@font-face {
+    font-family: 'Montserrat Medium';
+    src: url('fonts/Montserrat Medium.otf');
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url('fonts/Montserrat Regular.ttf');
+}
