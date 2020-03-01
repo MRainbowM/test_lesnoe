@@ -1,6 +1,20 @@
+.pattern
+    width: 100%
+    position: relative
+    height: 40px
+    img
+        width: 108px
+        position: absolute
+        bottom: 0
+        right: 805px
+    &-bottom
+        img 
+            transform: rotate(180deg)
+
 .reservation-frame
     width: 100%
     height: 73px
+    margin-left: 417px
     border: 3px solid #c5ac84
     border-right: 0
 
@@ -11,17 +25,19 @@
     border: 3px solid #fff
     border-right: 0
     background-color: #d3c1a2
+    padding-left: 155px
 
     &__text
         font-family: 'Bebas Neue Regular'
         font-size: 30px
         color: #1d1d1b
+        margin-right: 2px
     
     &__date
         display: flex
         width: 160px
-        height: 48px
-        margin-left: 22px
+        height: 49px
+        margin-left: 26px
         background-color: #fff
         border-radius: 4px
 
@@ -34,7 +50,7 @@
 
         &__col
             line-height: 0.8
-            padding-top: 5px
+            padding-top: 7px
             width: calc( 100% - 48px )
 
             span 
@@ -50,7 +66,7 @@
     &__count
         display: flex
         width: 85px
-        height: 48px
+        height: 49px
         margin-left: 22px
         background-color: #fff
         border-radius: 4px
@@ -64,7 +80,7 @@
         &__col
             width: calc( 100% - 40px )
             line-height: 0.8
-            padding-top: 5px
+            padding-top: 7px
             span 
                 font-family: 'Montserrat Regular'
                 font-size: 12px
@@ -79,8 +95,8 @@
 
     &__search
         width: 180px
-        height: 48px
-        margin-left: 22px
+        height: 49px
+        margin-left: 23px
         border-radius: 4px
         background-color: #fbd407
         font-family: 'Montserrat Regular'
