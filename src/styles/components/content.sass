@@ -14,24 +14,36 @@
             display: flex
             flex-wrap: pre
             margin-right: 255px
-            .name-1
-                width: 277px
-                height: 331px 
+            +max-screen(1120px)
+                margin-left: 50px
+            +max-screen(690px)
+                width: 100%
+            .name
+                width: 816px
+                max-width: 100%
+                +max-screen(690px)
+                    max-width: calc(100% - 155px)
 
-            .name-2
-                margin-top: auto
-                height: 108px
-                width: 518px
-                margin-left: 21px   
         &__row-3
             margin-right: 255px
             margin-left: auto
             width: min-content
             margin-top: 23px
-
+            +max-screen(1120px)
+                margin-left: 50px
+            +max-screen(690px)
+                margin-right: 0
+                width: 100%
             #premium
                 text-align: right
                 font-family: 'Bebas Neue Book'
                 font-size: 51px
                 color: #444444
                 white-space: nowrap
+                +max-screen(690px)
+                    font-size: 30px
+                    white-space: normal
+                    margin-right: 30px
+                +max-screen(400px)
+                    font-size: 20px
+                

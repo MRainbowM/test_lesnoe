@@ -5,6 +5,10 @@
     margin-top: 84px
     margin-left: -14px
     margin-bottom: 45px
+    +max-screen(690px)
+        max-width: 100%
+        width: 100%
+
     img 
         width: 24px
         height: 237px 
@@ -12,6 +16,9 @@
     &__text
         display: flex
         flex-direction: column
+        +max-screen(450px)
+            margin-right: 20px
+            width: calc( 100% - 100px )
     &__row-1
         margin-top: 16px
         font-family: 'Montserrat Medium'
@@ -25,6 +32,7 @@
             font-size: 44px
             width: min-content
             position: relative
+            
         #day
             font-size: 18px
             position: absolute
@@ -38,4 +46,6 @@
         font-size: 18px
         color: #444444
         line-height: 28px
+        +max-screen(450px)
+            white-space: normal
 
