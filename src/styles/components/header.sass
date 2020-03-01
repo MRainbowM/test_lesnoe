@@ -7,17 +7,59 @@
     margin-top: 58px
     margin-left: auto
     margin-right: 31px
+    // padding-left: auto
     font-family: 'Bebas Neue Regular'
     font-size: 24px
+    +max-screen(1020px)
+        padding-left: 30px
+        padding-right: 30px
+
+    &__btn
+        display: flex
+        justify-content: center
+        align-items: center
+        height: 100%
+        white-space: pre
+        width: 170px
+        border: 1px solid #C7AF84
+        border-radius: 10px
+        padding-right: 6px
+        z-index: 2
+.menu
+    display: flex
+    justify-content: space-between
+    width: calc( 100% - 170px )
+    padding-right: 100px
+    +max-screen(920px)
+        padding-right: 50px
+
+    +max-screen(730px)
+        display: none
+        // visibility: hidden
+
     &__item
         display: flex
         justify-content: center
         align-items: center
         height: 100%
         white-space: pre
+.show
+    display: flex
+    flex-direction: column
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 0
+    margin-left: -30px
+    // margin-top: 80px
+    padding-top: 150px
+    padding-right: 0
+    z-index: 2
+    background-color: #fff
 
-    &__btn
-        width: 170px
-        border: 1px solid #C7AF84
-        border-radius: 10px
-        padding-right: 6px
+
+
+
+
+
+    
