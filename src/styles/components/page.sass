@@ -1,11 +1,12 @@
 body
     width: 100%
-    // height: 100%
     height: 1320px
     background-color: #fff
     background-image: url(../images/bgc.png)
     background-repeat: no-repeat
     background-size: 100%
+    +max-screen(1520px)
+        background-size: cover 
 
 
 .page
@@ -21,7 +22,9 @@ body
     .deer
         position: absolute
         top: -385px
-        // left: -271px
         right: 945px
+        +max-screen(1520px)
+            height: 0
+            opacity: 0
 
 
